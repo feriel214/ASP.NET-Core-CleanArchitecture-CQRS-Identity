@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Naxxum.JobyHunter.Authentication.Api.props" />
+</Project>

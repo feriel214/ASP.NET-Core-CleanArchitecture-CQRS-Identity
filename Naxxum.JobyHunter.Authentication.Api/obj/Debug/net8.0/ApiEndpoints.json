@@ -1,0 +1,384 @@
+[
+  {
+    "ContainingType": "Authentication.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.Auth.AuthCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Authentication.Application.DTOs.AuthResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.RoleController",
+    "Method": "GetRoleByIdAsync",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Authentication.Application.DTOs.RoleResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.RoleController",
+    "Method": "CreateRoleAsync",
+    "RelativePath": "api/Role/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.Role.Create.RoleCreateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.RoleController",
+    "Method": "DeleteRoleAsync",
+    "RelativePath": "api/Role/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.RoleController",
+    "Method": "EditRole",
+    "RelativePath": "api/Role/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.Role.Update.UpdateRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.RoleController",
+    "Method": "GetRoleAsync",
+    "RelativePath": "api/Role/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Authentication.Application.DTOs.RoleResponseDTO, Authentication.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "AssignRoles",
+    "RelativePath": "api/User/AssignRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.User.Update.AssignUsersRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.User.Create.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/Delete/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "EditUserProfile",
+    "RelativePath": "api/User/EditUserProfile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.User.Update.EditUserProfileCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "EditUserRoles",
+    "RelativePath": "api/User/EditUserRoles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Authentication.Application.Commands.User.Update.UpdateUserRolesCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "GetAllUserAsync",
+    "RelativePath": "api/User/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Authentication.Application.DTOs.UserResponseDTO, Authentication.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "GetAllUserDetails",
+    "RelativePath": "api/User/GetAllUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Authentication.Application.DTOs.UserDetailsResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/User/GetUserDetails/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Authentication.Application.DTOs.UserDetailsResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  },
+  {
+    "ContainingType": "Authentication.Api.Controllers.UserController",
+    "Method": "GetUserDetailsByUserName",
+    "RelativePath": "api/User/GetUserDetailsByUserName/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Authentication.Application.DTOs.UserDetailsResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 0
+      }
+    ]
+  }
+]

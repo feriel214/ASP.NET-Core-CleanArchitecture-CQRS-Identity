@@ -1,0 +1,15 @@
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\bin\Debug\net8.0\Authentication.Application.deps.json
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\bin\Debug\net8.0\Authentication.Application.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\bin\Debug\net8.0\Authentication.Application.pdb
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\bin\Debug\net8.0\Authentication.Domain.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\bin\Debug\net8.0\Authentication.Domain.pdb
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.csproj.AssemblyReference.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.AssemblyInfoInputs.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.AssemblyInfo.cs
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.csproj.CoreCompileInputs.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authenti.BD76F788.Up2Date
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\refint\Authentication.Application.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\Authentication.Application.pdb
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Application\obj\Debug\net8.0\ref\Authentication.Application.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sG6CwzMIDAtWaLjQd26Ab4i1wvA/RTcyUWmoomKApiGcs/shd4l/JzDBGWZf19OSD+1Aj2u+uBa6tzlZLVJIpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zarro\\OneDrive\\Desktop\\RabyYsahel\\JobyHunter-Back - Copie\\Naxxum.JobyHunter.Authentication.Domain\\Authentication.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zarro\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\zarro\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\zarro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

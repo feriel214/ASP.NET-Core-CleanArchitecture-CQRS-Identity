@@ -1,0 +1,12 @@
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\bin\Debug\net8.0\Authentication.Domain.deps.json
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\bin\Debug\net8.0\Authentication.Domain.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\bin\Debug\net8.0\Authentication.Domain.pdb
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.csproj.AssemblyReference.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.AssemblyInfoInputs.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.AssemblyInfo.cs
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\refint\Authentication.Domain.dll
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.pdb
+C:\Users\zarro\OneDrive\Desktop\RabyYsahel\JobyHunter-Back - Copie\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\ref\Authentication.Domain.dll

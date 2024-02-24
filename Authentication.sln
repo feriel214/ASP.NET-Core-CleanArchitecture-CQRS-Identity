@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Api", "Naxxum.JobyHunter.Authentication.Api\Authentication.Api.csproj", "{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Application", "Naxxum.JobyHunter.Authentication.Application\Authentication.Application.csproj", "{106FE30E-7EFC-4D94-A2CA-35A88898D88F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Domain", "Naxxum.JobyHunter.Authentication.Domain\Authentication.Domain.csproj", "{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Infra", "Naxxum.JobyHunter.Authentication.Infrastructure\Authentication.Infra.csproj", "{D9430F9C-DA12-489B-A49B-20819C1037B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.UnitTests", "Naxxum.JobyHunter.Authentication.UnitTests\Authentication.UnitTests.csproj", "{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106FE30E-7EFC-4D94-A2CA-35A88898D88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106FE30E-7EFC-4D94-A2CA-35A88898D88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106FE30E-7EFC-4D94-A2CA-35A88898D88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106FE30E-7EFC-4D94-A2CA-35A88898D88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9430F9C-DA12-489B-A49B-20819C1037B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9430F9C-DA12-489B-A49B-20819C1037B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9430F9C-DA12-489B-A49B-20819C1037B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9430F9C-DA12-489B-A49B-20819C1037B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A87C3D5-93E0-4364-A3B3-BFF2B26ECEE0} = {23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}
+		{106FE30E-7EFC-4D94-A2CA-35A88898D88F} = {23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}
+		{E3E3D16F-B118-4EA1-8F8B-5B8C9A4B6DA9} = {23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}
+		{D9430F9C-DA12-489B-A49B-20819C1037B8} = {23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}
+		{9E10D414-D7F8-4E57-9CDD-B56C17C0EA7E} = {23F02C38-3BB9-47FE-AA1F-96B8E5E715A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDD22DE5-7A92-4BE2-B23E-D8DC2B039DE9}
+	EndGlobalSection
+EndGlobal
